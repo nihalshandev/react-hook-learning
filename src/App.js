@@ -1,12 +1,10 @@
 import "./App.css";
-import ClassCounterOne from "./components/useEffect/ClassCounterOne";
-import CounterOne from "./components/useEffect/CounterOne";
+import HookMouse from "./components/useEffect/HookMouse";
 
 function App() {
   return (
     <div className="App">
-      <CounterOne/>
-      {/* <ClassCounterOne/> */}
+      <HookMouse/>
     </div>
   );
 }
