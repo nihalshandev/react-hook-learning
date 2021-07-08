@@ -14,7 +14,7 @@ const HookCounterFour = () => {
     <div>
         <button onClick={addItem}>Add a number</button>
       <ul>
-        {items.map((item) => (
+       I {items.map((item) => (
           <li key={item.id}> {item.value} </li>
         ))}
       </ul>
