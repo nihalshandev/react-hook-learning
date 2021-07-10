@@ -1,12 +1,10 @@
 import "./App.css";
-import HookMouse from "./components/useEffect/HookMouse";
-import MouseContainer from "./components/useEffect/MouseContainer";
+import IntervelHookCounter from "./components/IntervelHookCounter";
 
 function App() {
   return (
     <div className="App">
-      {/* <HookMouse/> */}
-      <MouseContainer />
+      <IntervelHookCounter/>
     </div>
   );
 }
