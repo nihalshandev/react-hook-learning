@@ -1,10 +1,10 @@
 import "./App.css";
-import IntervelHookCounter from "./components/IntervelHookCounter";
+import DetaFetching from "./components/DetaFetching";
 
 function App() {
   return (
     <div className="App">
-      <IntervelHookCounter/>
+      <DetaFetching />
     </div>
   );
 }
