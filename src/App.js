@@ -1,10 +1,18 @@
+import { createContext } from "react";
 import "./App.css";
-import DetaFetching from "./components/DetaFetching";
+import ComponentC from "./components/useContext/ComponentC";
+
+export const UserContext = createContext();
+export const ChannelContext = createContext();
 
 function App() {
   return (
     <div className="App">
-      <DetaFetching />
+      <UserContext.Provider value={"Nihal shan"}>
+        <ChannelContext.Provider value={'Pattam tech'}>
+          <ComponentC />
+        </ChannelContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }
