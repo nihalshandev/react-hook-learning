@@ -16,7 +16,7 @@ const DataFetchingOne = () => {
             setLoading(false)
             setPost({})
             setError("Somthing went wrong!")
-        })
+        }, [])
     })
     return (
         <div>
