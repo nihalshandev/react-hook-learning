@@ -1,12 +1,10 @@
 import "./App.css";
-import DataFetchingOne from "./components/useReducer_DataFetching/DataFetchingOne";
-import DataFetchingTow from "./components/useReducer_DataFetching/DataFetchingTow";
+import ParentComponent from "./components/useCallback/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-      {/* <DataFetchingOne /> */}
-      <DataFetchingTow />
+      <ParentComponent />
     </div>
   );
 }
