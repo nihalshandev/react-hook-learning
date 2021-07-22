@@ -1,12 +1,12 @@
 import "./App.css";
-import DocTitleOne from "./components/ComstomHook/DocTitleOne";
-import DocTitleTwo from "./components/ComstomHook/DocTitleTwo";
+import CounterOne from "./components/ComstomHook/CounterOne";
+import CounterTwo from "./components/ComstomHook/CounterTwo";
 
 function App() {
   return (
     <div className="App">
-      <DocTitleOne />
-      <DocTitleTwo />
+      <CounterOne />
+      <CounterTwo />
     </div>
   );
 }
