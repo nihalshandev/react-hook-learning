@@ -1,13 +1,12 @@
 import "./App.css";
-import ClassTimer from "./components/useRef/ClassTimer";
-import HookTimer from "./components/useRef/HookTimer";
+import DocTitleOne from "./components/ComstomHook/DocTitleOne";
+import DocTitleTwo from "./components/ComstomHook/DocTitleTwo";
 
 function App() {
   return (
     <div className="App">
-      <ClassTimer />
-      <p>--------------------</p>
-      <HookTimer />
+      <DocTitleOne />
+      <DocTitleTwo />
     </div>
   );
 }
