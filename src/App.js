@@ -1,12 +1,10 @@
 import "./App.css";
-import CounterOne from "./components/ComstomHook/CounterOne";
-import CounterTwo from "./components/ComstomHook/CounterTwo";
+import UserForm from "./components/ComstomHook/UserForm";
 
 function App() {
   return (
     <div className="App">
-      <CounterOne />
-      <CounterTwo />
+      <UserForm />
     </div>
   );
 }
